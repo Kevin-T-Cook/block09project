@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    position: relative;
+}
+
+nav {
+    background-color: lightcyan;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    position: fixed;
+    z-index: 99;
+}
+
+nav > h1 {
+    left: 5%;
+    display: flex;
+    align-items: center;
+}
+
+nav > a {
+    left: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+}
+
+.background {
+    padding-top: 50px;
+    background-color: lightskyblue;
+    height: max-content;
+}
+
+.textBox {
+    padding-bottom: 10px;
+    background-color: rgb(185, 224, 246);
+    width: 50%;
+    margin-left: 25%;
+    height: max-content;
+}
+
+.textBox > .header, .intro, .welcomePhoto {
+    text-align: center;
+}
+ 
+.textBox > .header, .intro {
+    padding: 25px;
+}
+
+.textBox > .welcomePhoto > img {
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    padding: 10px;
+    margin: 90px;
+    border: 3px solid whitesmoke;
+}
+
+.welcomePhoto {
+    margin-bottom: 10px;
+}
+
+.paragraphAbout {
+    padding-bottom: 10px;
+    background-color: rgb(185, 224, 246);
+    width: 50%;
+    margin-left: 25%;
+    height: max-content;
+}
+
+.introAbout {
+    padding: 10px;
+    text-align: center;
+}
+
+.running {
+    padding: 10px;
+}
+
+.runningHeader {
+    border-top: 2px solid whitesmoke;
+    padding: 10px;
+}
+
+.surfing {
+    padding: 10px;
+}
+
+.surfingHeader {
+    border-top: 2px solid whitesmoke;
+    padding: 10px;
+}
+
+.dogs {
+    padding: 10px;
+}
+
+.dogsHeader {
+    border-top: 2px solid whitesmoke;
+    padding: 10px;
+}
+
+.textBox1 {
+    display: flex;
+    align-items: center;
+}
+
+.textBox2 {
+    display: flex;
+    align-items: center;
+}
+
+.textBox3 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.textBox1 > img {
+    height: 150px;
+    width: 300px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.textBox2 > img {
+    height: 150px;
+    width: 300px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.textBox2 > p {
+    padding-left: 10px;
+}
+
+.textBox3 > img {
+    height: 150px;
+    width: 300px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.backgroundTextBox {
+    padding-bottom: 10px;
+    background-color: rgb(185, 224, 246);
+    width: 50%;
+    margin-left: 25%;
+    height: max-content;
+}
+
+.portfolioHeader {
+    border-bottom: 2px solid whitesmoke;
+    padding: 10px;
+    text-align: center;
+}
+
+.projectHeader {
+    border-bottom: 2px solid black;
+    margin-bottom: 10px;
+    font-size: 2em;
+    font-weight: bold;
+    color: black;
+}
+
+.project1 {
+    padding: 10px;
+    background-color: lightcyan;
+    margin: 20px;
+}
+
+.project2 {
+    padding: 10px;
+    background-color: lightcyan;
+    margin: 20px;
+}
+
+.project3 {
+    padding: 10px;
+    background-color: lightcyan;
+    margin: 20px 20px 60px 20px;
+}
+
+.projectParagraph {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projectParagraph > p {
+    padding-left: 20px;
+}
+
+.projectParagraph > img {
+    width: 320px;
+    height: 240px;
+    border: black 1px solid;
+}
+
+
+
+footer {
+    width: 100%;
+    height: 50px;
+    background-color: lightcyan;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 0px;
+}
+
+footer > img {
+    height: 30px;
+    width: 30px;
+    object-fit: cover;
+    align-items: center;
+    margin: 10px;
+    z-index: 99;
+}
+
+@media screen and (min-width: 200px){
+}
